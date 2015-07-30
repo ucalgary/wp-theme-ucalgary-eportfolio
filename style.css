@@ -1100,7 +1100,7 @@ a.btn, a.btn:hover, a.btn:visited{
 		margin: auto;
 	}
 	
-	.site-content #content, .site-content .entry-content, .site-content .entry-header, .site-content .entry-footer, .site-content .site-main{
+	.site-content #content, .site-content .entry-content, .site-content .entry-header, .site-content .entry-footer{
 		margin: auto;
 		width: 1000px;
 	}
