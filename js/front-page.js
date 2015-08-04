@@ -8,7 +8,7 @@ jQuery(document).ready(function($){
 	$(function() {
 		$('a[href*=#]:not([href=#])').click(function() {
 			
-			
+						
 			$('.main-navigation li a').removeClass('active-menu');
 			$(this).addClass('active-menu');
 			

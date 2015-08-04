@@ -619,8 +619,14 @@ button.menu-toggle{
 	.title-box{
 		margin: auto;
 		width: 1000px;
-		padding: 300px 0px 50px 0px;
+		padding: 150px 0px 50px 0px;
 	}
+	
+	.home .title-box{
+
+		padding: 300px 0px 50px 0px;
+	}	
+	
 	
 	.title-box .site-title{
 		text-align: right;
@@ -646,8 +652,12 @@ button.menu-toggle{
 	
 	.title-box{
 		/*width: 1300px;*/
-		padding: 400px 0px 50px 0px;		
+		padding: 150px 0px 50px 0px;		
 	}
+	.home .title-box{
+
+		padding: 400px 0px 50px 0px;
+	}	
 	
 }
 
@@ -661,8 +671,11 @@ button.menu-toggle{
 	
 	.title-box{
 		/*width: 1700px;*/
-		padding: 500px 0px 50px 0px;		
+		padding: 150px 0px 50px 0px;		
 	}
+	.home .title-box{
+		padding: 500px 0px 50px 0px;
+	}		
 	
 }
 
@@ -834,6 +847,10 @@ body.logged-in .main-navigation{
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+}
+
+.logged-in .uc-auth-login-menu-item{
+	display: none;
 }
 
 
@@ -1050,6 +1067,9 @@ body.logged-in .main-navigation{
 	
 }
 
+.site-content #content{
+	margin: 20px 50px;
+}
 
 .site-content .entry-header{
 	padding: 25px 25px 15px 25px;
@@ -1084,6 +1104,8 @@ body.logged-in .main-navigation{
 
 a.btn, a.btn:hover, a.btn:visited{
 	color: #fff;
+	margin-bottom: 10px;
+	margin-right: 10px;
 }
 
 .error-404{
@@ -1093,6 +1115,11 @@ a.btn, a.btn:hover, a.btn:visited{
 .page-header{
 	border-bottom: none;
 }
+
+#wp-auth-check-wrap #wp-auth-check{
+	width: 500px;
+}
+
 
 @media screen and (min-width: 1024px) {
 
