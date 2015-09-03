@@ -27,7 +27,7 @@
 		
 			<div class="nav-container">
 		
-			<div class="site-logo">UCALGARY EPORTFOLIO</div>
+			<div class="site-logo">UCALGARY EPORTFOLIOS</div>
 			
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-bars"></i></button>
 			

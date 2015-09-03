@@ -526,6 +526,10 @@ textarea {
 }
 
 .title-box{
+	padding: 75px 0px 55px 0px;
+}
+
+.home .title-box{
 	padding: 305px 0px 55px 0px;
 }
 

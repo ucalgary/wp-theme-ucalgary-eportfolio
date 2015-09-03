@@ -19,7 +19,7 @@ get_header(); ?>
 		
 			<div class="section-title">
 			
-			<h1>UCalgary ePortfolio</h1>			
+			<h1>UCalgary ePortfolios</h1>			
 			
 			</div>
 		
