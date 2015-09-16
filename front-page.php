@@ -19,7 +19,7 @@ get_header(); ?>
 		
 			<div class="section-title">
 			
-			<h1>UCalgary ePortfolios</h1>			
+			<h1>UCalgary ePortfolio</h1>			
 			
 			</div>
 		
@@ -64,7 +64,7 @@ get_header(); ?>
 
 			<?php
 			
-			$query = new WP_query('pagename=why-eportfolio');	
+			$query = new WP_query('pagename=why');	
 			if($query->have_posts()){
 				while($query->have_posts()){
 					$query->the_post();
@@ -83,6 +83,41 @@ get_header(); ?>
 
 		</section>
 
+		<section id="front-how">
+
+
+
+			<div class="section-title">
+			
+				<h1>How can an ePortfolio be used?</h1>		
+			
+			</div>
+
+
+			<div class="section-content">
+
+
+
+			<?php
+			
+			$query = new WP_query('pagename=how');	
+			if($query->have_posts()){
+				while($query->have_posts()){
+					$query->the_post();
+					echo '<div class="entry-content">';
+					the_content();
+					echo '</div>';	
+				}
+			}		
+			wp_reset_postdata();	
+			
+				
+			?>
+
+
+			</div>
+
+		</section>
 
 		<section id="front-getting-started">
 

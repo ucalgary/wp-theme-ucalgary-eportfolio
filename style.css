@@ -695,13 +695,13 @@ a {
 }
 
 a:visited {
-	color: purple;
+	color: royalblue;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: royalblue;
 }
 
 a:focus {
@@ -1319,37 +1319,43 @@ object {
 
 .site-footer {
    
-	background-color: #656565;
+	background-color: #242424;
 }
 
 .site-info { 
 	
 	color: #fff;
+	border-top: 1px solid #999;
 	margin-top: 0px;
-	padding: 50px 50px 10px 50px;
+	padding: 0px 50px 0px 50px;
 
 	text-align: center;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 600;
 }
 
 .footer-content{
 	color: #dadada;
 	font-size: 12px;
-	padding: 10px 50px;
+	padding: 50px 10px;
 	text-align: center;
 	
 }
 
+.footer-content .entry-content{
+	margin:  0;
+}
+
 .footer-link{
-	padding: 10px 50px;
+	padding: 0px 50px;
 	text-align: center;
-	padding-bottom: 50px;
-	font-size: 14px;
+	padding-bottom: 0px;
+	font-size: 12px;
+	color: #dadada;	
 }
 
 .footer-link a, .footer-link a:visited{
-	color: #fff;
+	color: #dadada;
 }
     
 @media screen and (min-width: 1024px) {

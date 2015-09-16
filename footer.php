@@ -22,18 +22,6 @@
 		
 			-->
 			
-			Taylor Institute for Teaching and Learning, Educational Development Unit<br>
-			University of Calgary
-			
-
-
-
-
-
-		
-
-			
-		
 		</div><!-- .site-info -->
 		
 		
@@ -73,13 +61,6 @@
 			
 		?>
 
-		
-		
-		<div class="footer-link">
-					<a href="http://ucalgary.ca/taylorinstitute/edu/">http://ucalgary.ca/taylorinstitute/edu/</a>
-		</div>		
-
-		
 		
 	</footer><!-- #colophon -->
 </div><!-- #page -->
