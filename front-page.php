@@ -53,7 +53,7 @@ get_header(); ?>
 
 			<div class="section-title">
 			
-				<h1>Why Create an ePortfolio?</h1>		
+				<h1>Why should I create an ePortfolio?</h1>		
 			
 			</div>
 
@@ -89,7 +89,7 @@ get_header(); ?>
 
 			<div class="section-title">
 			
-				<h1>How can an ePortfolio be used?</h1>		
+				<h1>How should I use an ePortfolio?</h1>		
 			
 			</div>
 
@@ -164,7 +164,41 @@ get_header(); ?>
 		
 
 
-		
+		<section id="front-resources">
+
+
+
+			<div class="section-title">
+			
+				<h1>Resources</h1>		
+			
+			</div>
+
+
+			<div class="section-content">
+
+
+
+			<?php
+			
+			$query = new WP_query('pagename=resources');	
+			if($query->have_posts()){
+				while($query->have_posts()){
+					$query->the_post();
+					echo '<div class="entry-content">';
+					the_content();
+					echo '</div>';	
+				}
+			}		
+			wp_reset_postdata();	
+			
+				
+			?>
+
+
+			</div>
+
+		</section>		
 		
 
 		</main><!-- #main -->

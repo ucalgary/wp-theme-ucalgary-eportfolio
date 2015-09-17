@@ -573,7 +573,7 @@ textarea {
 
 .header-image-overlay{
 	background:#333;
-	background:hsla(0,0%,0%,.55);
+	background:hsla(0,0%,0%,.35);
 }
 
 button.menu-toggle{
@@ -628,7 +628,7 @@ button.menu-toggle{
 	
 	.home .title-box{
 
-		padding: 300px 0px 50px 0px;
+		padding: 400px 0px 50px 0px;
 	}	
 	
 	
@@ -647,6 +647,12 @@ button.menu-toggle{
 }
 
 @media screen and (min-width: 1200px) {
+	
+	.home .title-box{
+
+		padding: 500px 0px 50px 0px;
+	}	
+	
 	
 }
 	
