@@ -17,8 +17,15 @@ get_header(); ?>
 
 		<section id="front-eportfolio">
 		
+		
+		<!--
+			<div class="section-icon" style="margin: auto; text-align: center; margin-top: 30px;">
+				<img src="<?php echo get_template_directory_uri().'/images/ep_icon_1.png'; ?>" style="width: 75px;"/>
+			</div>
+		-->
+		
 			<div class="section-title">
-			
+				
 			<h1>UCalgary ePortfolio</h1>			
 			
 			</div>
