@@ -18,11 +18,12 @@ get_header(); ?>
 		<section id="front-eportfolio">
 		
 		
-		<!--
-			<div class="section-icon" style="margin: auto; text-align: center; margin-top: 30px;">
-				<img src="<?php echo get_template_directory_uri().'/images/ep_icon_1.png'; ?>" style="width: 75px;"/>
+			<div class="section-icon">
+						<img src="<?php echo get_template_directory_uri().'/images/ep_icon_3_blue.png'; ?>" >	
+	
 			</div>
-		-->
+		
+
 		
 			<div class="section-title">
 				
@@ -56,6 +57,11 @@ get_header(); ?>
 
 		<section id="front-why">
 
+
+			<div class="section-icon" >
+						<img src="<?php echo get_template_directory_uri().'/images/ep_icon_13_orange.png'; ?>" />	
+	
+			</div>
 
 
 			<div class="section-title">
@@ -92,7 +98,10 @@ get_header(); ?>
 
 		<section id="front-how">
 
-
+			<div class="section-icon" >
+						<img src="<?php echo get_template_directory_uri().'/images/ep_icon_4_yellow.png'; ?>" />	
+	
+			</div>
 
 			<div class="section-title">
 			
@@ -126,9 +135,43 @@ get_header(); ?>
 
 		</section>
 
+		<section id="front-steps">
+			
+			<div class="section-icon" style="margin: auto; text-align: center; padding-top: 40px;">
+						<img src="<?php echo get_template_directory_uri().'/images/ep_icon_16_green.png'; ?>" />	
+	
+			</div>
+
+
+			<div class="section-title">
+			
+				<h1>4 Steps for creating an ePortfolio</h1>		
+			
+			</div>
+			
+			<?php
+			
+			$query = new WP_query('pagename=steps');	
+			if($query->have_posts()){
+				while($query->have_posts()){
+					$query->the_post();
+					echo '<div class="entry-content">';
+					the_content();
+					echo '</div>';	
+				}
+			}		
+			wp_reset_postdata();	
+			?>			
+			
+		</section>
+
+
 		<section id="front-getting-started">
 
-
+			<div class="section-icon" style="margin: auto; text-align: center; padding-top: 40px;">
+						<img src="<?php echo get_template_directory_uri().'/images/ep_icon_11_red.png'; ?>" />	
+	
+			</div>
 			<div class="section-title">
 			
 				<h1>Getting Started</h1>	
@@ -173,7 +216,10 @@ get_header(); ?>
 
 		<section id="front-resources">
 
-
+			<div class="section-icon" >
+						<img src="<?php echo get_template_directory_uri().'/images/ep_icon_17_gray.png'; ?>" />	
+	
+			</div>
 
 			<div class="section-title">
 			

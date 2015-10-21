@@ -639,8 +639,8 @@ button.menu-toggle{
 		text-align: right;
 	}
 	.title-box .site-title a{
-		font-size: 30px;
-		font-weight: 600;
+		font-size: 34px;
+		font-weight: 400;
 	}
 
 	
@@ -1098,9 +1098,10 @@ body.logged-in .main-navigation{
 }
 
 .site-content .entry-subtitle{
-	font-weight: 600;
+	font-weight:500;
 	font-size: 20px;
 	margin: 20px 0px;
+	color: #666;
 }
 
 .site-content .entry-content ul{

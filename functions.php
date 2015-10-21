@@ -126,7 +126,7 @@ function uc_eportfolio_scripts() {
 	
 	wp_enqueue_style( 'uc-eportfolio-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'ucalgary-eportfolio-google-fonts', 'https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic|Roboto:400,400italic,500,700,500italic,700italic|Montserrat:400,700|Raleway:400,500,600,700');
+	wp_enqueue_style( 'ucalgary-eportfolio-google-fonts', 'https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic|Roboto:400,400italic,500,700,500italic,700italic|Montserrat:400,700|Raleway:400,100,200,300,500,600,700');
 	
 	wp_enqueue_style( 'ucalgary-eportfolio-font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 

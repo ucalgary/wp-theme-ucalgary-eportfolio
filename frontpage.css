@@ -14,45 +14,67 @@
 	/*background-color: #0DB2B0;*/
 }
 
-
-h1{
-	font-weight: 600;
-	font-size: 25px;
-	text-align: center;
-	margin: 0;
-	color: #004AAB;
+.title-box .site-title a{
+    text-align: center;
+    font-weight: 500;
 }
 
 
+h1{
+	font-weight: 300;
+	font-size: 30px;
+	text-align: center;
+	margin: 0;
+
+}
+
+.section-icon{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.section-icon img{
+	width: 80px;
+	
+}
 
 #front-eportfolio .section-content{
 	color: #666;
 
 }
-
+ #front-eportfolio h1{
+	 color: #686868;
+ }
 
 #front-getting-started{
-	background-color: #F3F3F3;
+	background-color: #fff;
+	
+	/*background: linear-gradient(to bottom, #041b4a 0, #0088cb 100%);	*/
 }
 
 
 #front-getting-started h1{
-
+	 color: #686868;
 }
 
 #front-getting-started .section-content{
-	color: #000;
+	color: #666;
+}
+
+#front-getting-started .section-content .btn-info{
+	background-color: #bc1717;
+	border-color: #bc1717;
 }
 
 
 #front-why{
 	color: #fff;
-	background-color: #F3F3F3;
+	background-color: #f6f9fa;
 }
 
 
 #front-why h1{
-	color: #004AAB;
+	 color: #686868;
 }
 
 #front-why .section-content{
@@ -63,10 +85,74 @@ h1{
 
 }
 
+#front-how h1{
+	 color: #686868;
+}
+
+#front-steps{
+	background-color: #041b4a;
+	background: linear-gradient(to bottom, #041b4a 0, #0178B3 100%);	
+}
+
+#front-steps h1{
+	 color: #686868;
+	 color: #fff;
+}
 
 #front-about h1{
-	color: #bad80a;
+	 color: #686868;
 }
+
+#front-resources{
+	background-color: #f6f9fa;
+}
+
+
+
+#front-steps .steps{
+	text-align: center;
+}
+
+#front-steps .col{
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+#front-steps .steps .col-title{
+	font-size: 20px;
+	color: #686868;
+	margin-bottom: 10px;
+	color: #fff;	
+	font-weight: 500;
+}
+
+#front-steps .steps .col-text{
+	color: #E2E2E2;
+}
+
+#front-steps .steps .col-image{
+	margin-bottom: 15px;
+}
+
+
+#front-steps .steps .col-image img{
+	width: 50px;
+}
+
+
+@media screen and (min-width: 768px){
+	
+	#front-steps .col{
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}	
+	
+	h1{
+		font-size: 40px;
+	}
+		
+}
+
 
 @media screen and (min-width: 1024px){
 	
@@ -75,7 +161,7 @@ h1{
 		width: 1000px;
 	}
 	.section-title{
-		padding: 50px 15px 50px 15px;
+		padding: 30px 15px 50px 15px;
 	/*background-color: #0DB2B0;*/
 	}
 }
