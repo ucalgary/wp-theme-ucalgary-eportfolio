@@ -69,7 +69,7 @@ h1{
 
 #front-why{
 	color: #fff;
-	background-color: #f6f9fa;
+	background-color: #F1F1F1;
 }
 
 
@@ -90,8 +90,8 @@ h1{
 }
 
 #front-steps{
-	background-color: #041b4a;
-	background: linear-gradient(to bottom, #041b4a 0, #0178B3 100%);	
+	background-color: #1E4071;
+	background: linear-gradient(to bottom, #3D6BCC 0, #1E4071 100%);	
 }
 
 #front-steps h1{
@@ -104,7 +104,7 @@ h1{
 }
 
 #front-resources{
-	background-color: #f6f9fa;
+	background-color: #F1F1F1;
 }
 
 
