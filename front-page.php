@@ -182,20 +182,10 @@ get_header(); ?>
 
 
 			<?php
-			
-			$query = new WP_query('pagename=getting-started');	
-			if($query->have_posts()){
-				while($query->have_posts()){
-					$query->the_post();
-					echo '<div class="entry-content">';
-					the_content();
-					echo '</div>';	
-				}
-			}		
-			wp_reset_postdata();	
+
 			
 
-			$query = new WP_query('pagename=login-options');	
+			$query = new WP_query('pagename=register');	
 			if($query->have_posts()){
 				while($query->have_posts()){
 					$query->the_post();
@@ -205,6 +195,19 @@ get_header(); ?>
 				}
 			}		
 			wp_reset_postdata();	
+
+
+			$query = new WP_query('pagename=create-site');	
+			if($query->have_posts()){
+				while($query->have_posts()){
+					$query->the_post();
+					echo '<div class="entry-content">';
+					the_content();
+					echo '</div>';	
+				}
+			}		
+			wp_reset_postdata();				
+			
 				
 			?>
 

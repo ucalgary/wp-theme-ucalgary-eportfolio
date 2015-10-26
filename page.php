@@ -28,8 +28,27 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
 
+
+
+
+
 		</main><!-- #main -->
+
+		
+
+
 	</div><!-- #primary -->
+
+		<?php
+		
+		if(!is_front_page()){
+			
+			echo "<div class='back-to-home-link'><a href='http://eportfolio.ucalgary.ca/'>&larr; Back to UCalgary ePortfoliio</a></div>";
+			
+		}
+		
+		?>
+
 
 <?php /*get_sidebar();*/ ?>
 <?php get_footer(); ?>
